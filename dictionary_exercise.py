@@ -8,4 +8,5 @@ digits_mapping = {
 }
 output = ""
 for ch in phone:
-    output += digits_mapping.get(ch, "1")
+    output += digits_mapping.get(ch, "!") + " "
+print(output)
